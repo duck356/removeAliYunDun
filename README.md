@@ -1,2 +1,1 @@
-# removeAliYunDun
- 卸载阿里云盾
+用于卸载阿里云盾
