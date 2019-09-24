@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # check root
+# power by Duck356
 get_char()
 {
 SAVEDSTTY=`stty -g`
