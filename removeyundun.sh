@@ -13,6 +13,9 @@ stty $SAVEDSTTY
 }
 # echo
 # begin
+# check lsb_release
+yum install -y redhat-lsb
+# begin
 echo "开始删除云盾，任意键继续"
 char=`get_char`
 wget http://update.aegis.aliyun.com/download/uninstall.sh
